@@ -7,6 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "Yekan-Bakh" : "Yekan Bakh",
+        "Yekan-Bakh-regular" : "Yekan Bakh regular",
+        "Yekan-Bakh-bold" : "Yekan Bakh bold",
+
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
