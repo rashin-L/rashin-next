@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cp60008/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp .next $DEPLOYPATH

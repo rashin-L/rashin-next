@@ -17,6 +17,7 @@
 
 // next-i18next.config.js
 module.exports = {
+    distDir: "_next",
     // https://www.i18next.com/overview/configuration-options#logging
     // debug: process.env.NODE_ENV === 'development',
     i18n: {
