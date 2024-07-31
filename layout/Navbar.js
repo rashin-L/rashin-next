@@ -20,8 +20,8 @@ library.add(faGraduationCap);
 import CustomButton from '../components/CustomButton';
 import { LangContext } from '@/components/LangContext';
 import { useTranslation } from 'react-i18next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import fs from 'fs/promises';
+// import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+// import fs from 'fs/promises';
 import Logo from './Logo';
 import Light from './Light';
 
@@ -140,22 +140,25 @@ Navbar.propTypes = {
     onSidebarOpen: PropTypes.func,
 };
 
+export default Navbar;
+
+
 // نمیخونه برو یاد بگیر سمت سرور
 
 
-export async function getStaticProps() {
-    console.log("get static**************************");
-    const filePath = path.join(process.cwd(), 'public', 'locales')
-    const locale = await fs.readFile(filePath)
-    console.log(locale);
-    return {
-        props: {
-            ...(await serverSideTranslations(locale, ['translation'])),
-        },
-    };
-}
+// export async function getStaticProps() {
+//     console.log("get static**************************");
+//     const filePath = path.join(process.cwd(), 'public', 'locales')
+//     const locale = await fs.readFile(filePath)
+//     console.log(locale);
+//     return {
+//         props: {
+//             ...(await serverSideTranslations(locale, ['translation'])),
+//         },
+//     };
+// }
 
-export default Navbar;
+// export default Navbar;
 
 
 // import { serverSideTranslations } from 'next-i18next/serverSideTranslations'

@@ -3,18 +3,18 @@ import React, { useState, useEffect } from "react";
 import "../app/globals.css";
 import "../i18n";
 
-import About from "../components/About";
-import Contact from "../components/Contact";
-import Hero from "../components/Hero";
+import About from "./About";
+import Contact from "./Contact";
+import Hero from "./Hero";
 // import Projects from "../components/Projects";
 import Projects from "@/components/Projects";
-import Technologies from "../components/Technologies";
+import Technologies from "./Technologies";
 import PortfolioImage from "@/components/PortfolioImage";
 import Navbar from "@/layout/Navbar";
 import Sidebar from "@/layout/Sidebar";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import { ParticlesContainer } from "../components/ParticlesContainer";
+import { ParticlesContainer } from "./ParticlesContainer";
 import Cookies from "js-cookie";
 import Link from "next/link";
 

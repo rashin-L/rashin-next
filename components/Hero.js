@@ -53,7 +53,8 @@ const Hero = () => {
       dir='ltr'
       id='home'>
       <Box sx={{ width: 1, height: 1, textAlign: "right" }} >
-        <Container padding={0} maxWidth='100%'>
+        <Container padding={0} maxWidth='100%'
+        className=' !px-0'>
           <Box
             display='flex'
             flexDirection={{ xs: 'column', md: 'row' }}
@@ -140,9 +141,10 @@ const Hero = () => {
             >
               <Box
                 sx={{
-                  width: { xs: 1, md: '50vw' },
+                  width: { xs: 1, md: '2' },
                   height: '100%',
                   position: 'relative',
+                  // className=' bg-black'
                 }}
               >
                 <Box

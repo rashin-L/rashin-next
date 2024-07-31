@@ -8,7 +8,9 @@ import Zoom from '@mui/material/Zoom';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import { useTheme } from '@mui/material/styles';
 import { Provider } from 'react-redux';
-import store from '../store'
+import { PersistGate } from "redux-persist/integration/react";
+
+import { persistor, store} from '../store';
 
 import Footer from './Footer';
 
@@ -33,6 +35,7 @@ const Layout = ({ children }) => {
 
   return (
     <Provider store={store}>
+      {/* <PersistGate  persistor={persistor}> */}
     <Box id='page-top'>
       {/* <PortfolioImage /> */}
       
@@ -63,6 +66,7 @@ const Layout = ({ children }) => {
         </Zoom>
       </NoSsr>
     </Box>
+    {/* </PersistGate> */}
     </Provider>
   );
 };

@@ -99,12 +99,13 @@ const Projects = () => {
                 <Box
                   component={Card}
                   width={1}
-                  height="19rem"
+                  // height="19rem"
                   display="flex"
                   flexDirection="column"
                   sx={{ backgroundColor: "rgb(255 255 255 / 0.3)" }}
                 >
-                  <CardContent>
+                  <CardContent
+                  className="h-[18rem]">
                     <div
                       onClick={() => router?.push(`/project/${item?.slug}`)}
                       className=" flex gap-1 items-center align-baseline mb-2 cursor-pointer"

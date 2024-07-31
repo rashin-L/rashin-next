@@ -22,7 +22,7 @@ import "./globals.css";
 
 // const inter = Inter({ subsets: ["latin"] });
 
-import localFont from 'next/font/local'
+// import localFont from 'next/font/local'
 
 // export const metadata = {
 //   title: "بیت هوم",

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 // import { useRouter } from 'next/router';
 import { useRouter } from "next/navigation";
 // import "../../globals.css";
@@ -20,18 +20,18 @@ import PortfolioImage from "@/components/PortfolioImage";
 import Light from "@/layout/Light";
 import Cookies from "js-cookie";
 import { useTranslation } from "react-i18next";
-import { slugProject } from "@/app/actions";
+// import { slugProject } from "@/app/actions";
 // import * as shamsi from 'shamsi-date-converter';
 import { useGetSlugProjectQuery } from "@/redux/services/project/project";
-import { useParams } from "next/navigation";
+// import { useParams } from "next/navigation";
 // var moment = require('moment-jalaali')
 
-function ProjectDetail() {
-  const params = useParams();
+const ProjectDetail = ({ slug }) => {
+  // const params = useParams();
   // const { data: projectData } = useGetSlugProjectQuery("personal-web-fa");
-  const { data: projectData } = useGetSlugProjectQuery(params?.slug);
+  const { data: projectData } = useGetSlugProjectQuery(slug);
   //   const projectData = project[0];
-  console.log(projectData);
+  // console.log(projectData);
   // const[project, setProject] = useState(projects?.filter(project_f => project_f?.slug === 'personal-web-fa'))
   // const { projects, myDate } = slugProject()
   // const [isClient, setIsClient] = useState(false);
@@ -116,11 +116,11 @@ function ProjectDetail() {
                       : `${projectData[0] && projectData[0]?.start_date} - ${
                           projectData[0] && projectData[0]?.end_date
                         }`} */}
-                    {selectedLang === "fa"
-                    //   ? `${myDate}`
-                      && `${projectData[0] && projectData[0]?.start_date} - ${
-                          projectData[0] && projectData[0]?.end_date
-                        }`}
+                    {selectedLang === "fa" &&
+                      //   ? `${myDate}`
+                      `${projectData[0] && projectData[0]?.start_date} - ${
+                        projectData[0] && projectData[0]?.end_date
+                      }`}
                   </span>
                 </div>
 
@@ -251,83 +251,5 @@ function ProjectDetail() {
       )}
     </>
   );
-}
-// export async function getStaticPaths() {
-//     console.log( useGetProjectQuery())
-//     const { data } =  useGetProjectQuery();
-
-//     // Generate the paths for all project IDs
-//     const paths = data.map(project => ({
-//         params: { id: project.id.toString() },
-//     }));
-
-//     return {
-//         paths,
-//         fallback: false, // Set it to true if you have more dynamic paths to handle
-//     };
-// }
-
-// export async function getStaticProps({ params }) {
-//     const { id } = params;
-
-//     // Fetch the project data using the RTK Query
-//     const { data } =  useGetProjectQuery();
-
-//     // Filter the project data based on the ID
-//     const project = data.filter(project_f => project_f.id === Number(id));
-
-//     return {
-//         props: {
-//             project,
-//         },
-//     };
-// }
-
+};
 export default React.memo(ProjectDetail);
-// import axios from 'axios';
-
-// export async function getServerSideProps() {
-//     const solarDate = (startDate, endDate) => {
-//         const start = new Date(startDate);
-//         const end = new Date(endDate);
-
-//         const formattedStartDate = shamsi.gregorianToJalali(start.getFullYear(), start.getMonth() + 1, start.getDate()).join('/');
-//         const formattedEndDate = shamsi.gregorianToJalali(end.getFullYear(), end.getMonth() + 1, end.getDate()).join('/');
-
-//         return `${formattedStartDate} - ${formattedEndDate}`;
-//     };
-
-//     try {
-//         const response = await axios.get(`${config.backendUrl}/project/projects`);
-
-//         if (response.status === 200) {
-//             const data = response.data;
-//             // console.log(data[0]?.start_date)
-//             // console.log(data[0]?.end_date)
-//             const myDate = solarDate(data[0]?.start_date, data[0]?.end_date);
-//             // const endDate = solarDate(data[0]?.end_date);
-
-//             return {
-//                 props: {
-//                     projects: data,
-//                     myDate: myDate,
-//                     // endDate: endDate
-//                 }
-//             };
-//         } else {
-//             console.log('Response is not successful');
-//             return {
-//                 props: {
-//                     projects: []
-//                 }
-//             };
-//         }
-//     } catch (error) {
-//         console.log('Error occurred while fetching data:', error);
-//         return {
-//             props: {
-//                 projects: []
-//             }
-//         };
-//     }
-// }

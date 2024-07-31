@@ -20,17 +20,7 @@ export default {
       },
       divider: 'rgb(85, 89, 110)',
     },
-    typography: {
-    fontFamily: [
-        // "Yekan-Bakh" : "Yekan Bakh",
-        // "Yekan-Bakh-regular" : "Yekan Bakh regular",
-        // "Yekan-Bakh-bold" : "Yekan Bakh bold",
-        "Yekan Bakh",
-        "Yekan Bakh regular",
-        "Yekan Bakh bold",
-
-    ].join(','),
-  },
+    typography: typography,
   }),
   light: createTheme({
     palette: {
