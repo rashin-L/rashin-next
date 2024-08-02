@@ -1,14 +1,14 @@
 "use client"
 import React, { useState, useEffect, useMemo } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import AOS from 'aos';
 import Head from 'next/head';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import { CacheProvider } from '@emotion/react';
-import { appWithTranslation } from 'next-i18next';
+// import { appWithTranslation } from 'next-i18next';
 import 'aos/dist/aos.css';
-import LanguageProvider from '@/components/LangContext';
+import LanguageProvider from '../components/LangContext';
 
 import { theme as customTheme } from '../theme';
 import createEmotionCache from '../utils/createEmotionCache';

@@ -1,0 +1,560 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+
+  RewriteBase / 
+    #.next\server\pages\en\500.html
+    RewriteRule ^500/$ .next\server\pages\en\500.html [L]
+    #.next\server\pages\fa\500.html
+    RewriteRule ^500/$ .next\server\pages\fa\500.html [L]
+    #node_modules\@tsparticles\basic\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\basic\report.html [L]
+    #node_modules\@tsparticles\engine\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\engine\report.html [L]
+    #node_modules\@tsparticles\interaction-external-attract\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-attract\report.html [L]
+    #node_modules\@tsparticles\interaction-external-bounce\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-bounce\report.html [L]
+    #node_modules\@tsparticles\interaction-external-bubble\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-bubble\report.html [L]
+    #node_modules\@tsparticles\interaction-external-connect\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-connect\report.html [L]
+    #node_modules\@tsparticles\interaction-external-grab\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-grab\report.html [L]
+    #node_modules\@tsparticles\interaction-external-pause\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-pause\report.html [L]
+    #node_modules\@tsparticles\interaction-external-push\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-push\report.html [L]
+    #node_modules\@tsparticles\interaction-external-remove\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-remove\report.html [L]
+    #node_modules\@tsparticles\interaction-external-repulse\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-repulse\report.html [L]
+    #node_modules\@tsparticles\interaction-external-slow\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-slow\report.html [L]
+    #node_modules\@tsparticles\interaction-external-trail\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-external-trail\report.html [L]
+    #node_modules\@tsparticles\interaction-particles-attract\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-particles-attract\report.html [L]
+    #node_modules\@tsparticles\interaction-particles-collisions\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-particles-collisions\report.html [L]
+    #node_modules\@tsparticles\interaction-particles-links\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\interaction-particles-links\report.html [L]
+    #node_modules\@tsparticles\move-base\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\move-base\report.html [L]
+    #node_modules\@tsparticles\move-parallax\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\move-parallax\report.html [L]
+    #node_modules\@tsparticles\plugin-absorbers\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\plugin-absorbers\report.html [L]
+    #node_modules\@tsparticles\plugin-easing-quad\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\plugin-easing-quad\report.html [L]
+    #node_modules\@tsparticles\plugin-emitters\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\plugin-emitters\report.html [L]
+    #node_modules\@tsparticles\plugin-emitters-shape-circle\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\plugin-emitters-shape-circle\report.html [L]
+    #node_modules\@tsparticles\plugin-emitters-shape-square\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\plugin-emitters-shape-square\report.html [L]
+    #node_modules\@tsparticles\shape-circle\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\shape-circle\report.html [L]
+    #node_modules\@tsparticles\shape-emoji\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\shape-emoji\report.html [L]
+    #node_modules\@tsparticles\shape-image\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\shape-image\report.html [L]
+    #node_modules\@tsparticles\shape-line\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\shape-line\report.html [L]
+    #node_modules\@tsparticles\shape-polygon\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\shape-polygon\report.html [L]
+    #node_modules\@tsparticles\shape-square\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\shape-square\report.html [L]
+    #node_modules\@tsparticles\shape-star\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\shape-star\report.html [L]
+    #node_modules\@tsparticles\shape-text\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\shape-text\report.html [L]
+    #node_modules\@tsparticles\slim\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\slim\report.html [L]
+    #node_modules\@tsparticles\updater-color\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-color\report.html [L]
+    #node_modules\@tsparticles\updater-destroy\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-destroy\report.html [L]
+    #node_modules\@tsparticles\updater-life\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-life\report.html [L]
+    #node_modules\@tsparticles\updater-opacity\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-opacity\report.html [L]
+    #node_modules\@tsparticles\updater-out-modes\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-out-modes\report.html [L]
+    #node_modules\@tsparticles\updater-roll\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-roll\report.html [L]
+    #node_modules\@tsparticles\updater-rotate\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-rotate\report.html [L]
+    #node_modules\@tsparticles\updater-size\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-size\report.html [L]
+    #node_modules\@tsparticles\updater-stroke-color\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-stroke-color\report.html [L]
+    #node_modules\@tsparticles\updater-tilt\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-tilt\report.html [L]
+    #node_modules\@tsparticles\updater-twinkle\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-twinkle\report.html [L]
+    #node_modules\@tsparticles\updater-wobble\report.html
+    RewriteRule ^report/$ node_modules\@tsparticles\updater-wobble\report.html [L]
+    #node_modules\aos\demo\async.html
+    RewriteRule ^async/$ node_modules\aos\demo\async.html [L]
+    #node_modules\aos\demo\simple.html
+    RewriteRule ^simple/$ node_modules\aos\demo\simple.html [L]
+    #node_modules\aos\test\fixtures\aos-offset.fixture.html
+    RewriteRule ^aos-offset.fixture/$ node_modules\aos\test\fixtures\aos-offset.fixture.html [L]
+    #node_modules\aos\test\fixtures\aos.fixture.html
+    RewriteRule ^aos.fixture/$ node_modules\aos\test\fixtures\aos.fixture.html [L]
+    #node_modules\classlist-polyfill\tests\qunit.html
+    RewriteRule ^qunit/$ node_modules\classlist-polyfill\tests\qunit.html [L]
+    #node_modules\fa-icons\demo\index.html
+    RewriteRule ^index/$ node_modules\fa-icons\demo\index.html [L]
+    #node_modules\fa-icons\test\fa-icon_test.html
+    RewriteRule ^fa-icon_test/$ node_modules\fa-icons\test\fa-icon_test.html [L]
+    #node_modules\fa-icons\test\index.html
+    RewriteRule ^index/$ node_modules\fa-icons\test\index.html [L]
+    #node_modules\html-tokenize\bench\input.html
+    RewriteRule ^input/$ node_modules\html-tokenize\bench\input.html [L]
+    #node_modules\html-tokenize\example\table.html
+    RewriteRule ^table/$ node_modules\html-tokenize\example\table.html [L]
+    #node_modules\html-tokenize\test\attributes\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\attributes\index.html [L]
+    #node_modules\html-tokenize\test\cdata\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\cdata\index.html [L]
+    #node_modules\html-tokenize\test\comment\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\comment\index.html [L]
+    #node_modules\html-tokenize\test\comment_comment\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\comment_comment\index.html [L]
+    #node_modules\html-tokenize\test\loose_angle_brackets\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\loose_angle_brackets\index.html [L]
+    #node_modules\html-tokenize\test\quote\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\quote\index.html [L]
+    #node_modules\html-tokenize\test\script\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\script\index.html [L]
+    #node_modules\html-tokenize\test\style\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\style\index.html [L]
+    #node_modules\html-tokenize\test\table\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\table\index.html [L]
+    #node_modules\html-tokenize\test\tag_comment\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\tag_comment\index.html [L]
+    #node_modules\html-tokenize\test\title\index.html
+    RewriteRule ^index/$ node_modules\html-tokenize\test\title\index.html [L]
+    #node_modules\npm\docs\output\commands\npm-access.html
+    RewriteRule ^npm-access/$ node_modules\npm\docs\output\commands\npm-access.html [L]
+    #node_modules\npm\docs\output\commands\npm-adduser.html
+    RewriteRule ^npm-adduser/$ node_modules\npm\docs\output\commands\npm-adduser.html [L]
+    #node_modules\npm\docs\output\commands\npm-audit.html
+    RewriteRule ^npm-audit/$ node_modules\npm\docs\output\commands\npm-audit.html [L]
+    #node_modules\npm\docs\output\commands\npm-bugs.html
+    RewriteRule ^npm-bugs/$ node_modules\npm\docs\output\commands\npm-bugs.html [L]
+    #node_modules\npm\docs\output\commands\npm-cache.html
+    RewriteRule ^npm-cache/$ node_modules\npm\docs\output\commands\npm-cache.html [L]
+    #node_modules\npm\docs\output\commands\npm-ci.html
+    RewriteRule ^npm-ci/$ node_modules\npm\docs\output\commands\npm-ci.html [L]
+    #node_modules\npm\docs\output\commands\npm-completion.html
+    RewriteRule ^npm-completion/$ node_modules\npm\docs\output\commands\npm-completion.html [L]
+    #node_modules\npm\docs\output\commands\npm-config.html
+    RewriteRule ^npm-config/$ node_modules\npm\docs\output\commands\npm-config.html [L]
+    #node_modules\npm\docs\output\commands\npm-dedupe.html
+    RewriteRule ^npm-dedupe/$ node_modules\npm\docs\output\commands\npm-dedupe.html [L]
+    #node_modules\npm\docs\output\commands\npm-deprecate.html
+    RewriteRule ^npm-deprecate/$ node_modules\npm\docs\output\commands\npm-deprecate.html [L]
+    #node_modules\npm\docs\output\commands\npm-diff.html
+    RewriteRule ^npm-diff/$ node_modules\npm\docs\output\commands\npm-diff.html [L]
+    #node_modules\npm\docs\output\commands\npm-dist-tag.html
+    RewriteRule ^npm-dist-tag/$ node_modules\npm\docs\output\commands\npm-dist-tag.html [L]
+    #node_modules\npm\docs\output\commands\npm-docs.html
+    RewriteRule ^npm-docs/$ node_modules\npm\docs\output\commands\npm-docs.html [L]
+    #node_modules\npm\docs\output\commands\npm-doctor.html
+    RewriteRule ^npm-doctor/$ node_modules\npm\docs\output\commands\npm-doctor.html [L]
+    #node_modules\npm\docs\output\commands\npm-edit.html
+    RewriteRule ^npm-edit/$ node_modules\npm\docs\output\commands\npm-edit.html [L]
+    #node_modules\npm\docs\output\commands\npm-exec.html
+    RewriteRule ^npm-exec/$ node_modules\npm\docs\output\commands\npm-exec.html [L]
+    #node_modules\npm\docs\output\commands\npm-explain.html
+    RewriteRule ^npm-explain/$ node_modules\npm\docs\output\commands\npm-explain.html [L]
+    #node_modules\npm\docs\output\commands\npm-explore.html
+    RewriteRule ^npm-explore/$ node_modules\npm\docs\output\commands\npm-explore.html [L]
+    #node_modules\npm\docs\output\commands\npm-find-dupes.html
+    RewriteRule ^npm-find-dupes/$ node_modules\npm\docs\output\commands\npm-find-dupes.html [L]
+    #node_modules\npm\docs\output\commands\npm-fund.html
+    RewriteRule ^npm-fund/$ node_modules\npm\docs\output\commands\npm-fund.html [L]
+    #node_modules\npm\docs\output\commands\npm-help-search.html
+    RewriteRule ^npm-help-search/$ node_modules\npm\docs\output\commands\npm-help-search.html [L]
+    #node_modules\npm\docs\output\commands\npm-help.html
+    RewriteRule ^npm-help/$ node_modules\npm\docs\output\commands\npm-help.html [L]
+    #node_modules\npm\docs\output\commands\npm-hook.html
+    RewriteRule ^npm-hook/$ node_modules\npm\docs\output\commands\npm-hook.html [L]
+    #node_modules\npm\docs\output\commands\npm-init.html
+    RewriteRule ^npm-init/$ node_modules\npm\docs\output\commands\npm-init.html [L]
+    #node_modules\npm\docs\output\commands\npm-install-ci-test.html
+    RewriteRule ^npm-install-ci-test/$ node_modules\npm\docs\output\commands\npm-install-ci-test.html [L]
+    #node_modules\npm\docs\output\commands\npm-install-test.html
+    RewriteRule ^npm-install-test/$ node_modules\npm\docs\output\commands\npm-install-test.html [L]
+    #node_modules\npm\docs\output\commands\npm-install.html
+    RewriteRule ^npm-install/$ node_modules\npm\docs\output\commands\npm-install.html [L]
+    #node_modules\npm\docs\output\commands\npm-link.html
+    RewriteRule ^npm-link/$ node_modules\npm\docs\output\commands\npm-link.html [L]
+    #node_modules\npm\docs\output\commands\npm-login.html
+    RewriteRule ^npm-login/$ node_modules\npm\docs\output\commands\npm-login.html [L]
+    #node_modules\npm\docs\output\commands\npm-logout.html
+    RewriteRule ^npm-logout/$ node_modules\npm\docs\output\commands\npm-logout.html [L]
+    #node_modules\npm\docs\output\commands\npm-ls.html
+    RewriteRule ^npm-ls/$ node_modules\npm\docs\output\commands\npm-ls.html [L]
+    #node_modules\npm\docs\output\commands\npm-org.html
+    RewriteRule ^npm-org/$ node_modules\npm\docs\output\commands\npm-org.html [L]
+    #node_modules\npm\docs\output\commands\npm-outdated.html
+    RewriteRule ^npm-outdated/$ node_modules\npm\docs\output\commands\npm-outdated.html [L]
+    #node_modules\npm\docs\output\commands\npm-owner.html
+    RewriteRule ^npm-owner/$ node_modules\npm\docs\output\commands\npm-owner.html [L]
+    #node_modules\npm\docs\output\commands\npm-pack.html
+    RewriteRule ^npm-pack/$ node_modules\npm\docs\output\commands\npm-pack.html [L]
+    #node_modules\npm\docs\output\commands\npm-ping.html
+    RewriteRule ^npm-ping/$ node_modules\npm\docs\output\commands\npm-ping.html [L]
+    #node_modules\npm\docs\output\commands\npm-pkg.html
+    RewriteRule ^npm-pkg/$ node_modules\npm\docs\output\commands\npm-pkg.html [L]
+    #node_modules\npm\docs\output\commands\npm-prefix.html
+    RewriteRule ^npm-prefix/$ node_modules\npm\docs\output\commands\npm-prefix.html [L]
+    #node_modules\npm\docs\output\commands\npm-profile.html
+    RewriteRule ^npm-profile/$ node_modules\npm\docs\output\commands\npm-profile.html [L]
+    #node_modules\npm\docs\output\commands\npm-prune.html
+    RewriteRule ^npm-prune/$ node_modules\npm\docs\output\commands\npm-prune.html [L]
+    #node_modules\npm\docs\output\commands\npm-publish.html
+    RewriteRule ^npm-publish/$ node_modules\npm\docs\output\commands\npm-publish.html [L]
+    #node_modules\npm\docs\output\commands\npm-query.html
+    RewriteRule ^npm-query/$ node_modules\npm\docs\output\commands\npm-query.html [L]
+    #node_modules\npm\docs\output\commands\npm-rebuild.html
+    RewriteRule ^npm-rebuild/$ node_modules\npm\docs\output\commands\npm-rebuild.html [L]
+    #node_modules\npm\docs\output\commands\npm-repo.html
+    RewriteRule ^npm-repo/$ node_modules\npm\docs\output\commands\npm-repo.html [L]
+    #node_modules\npm\docs\output\commands\npm-restart.html
+    RewriteRule ^npm-restart/$ node_modules\npm\docs\output\commands\npm-restart.html [L]
+    #node_modules\npm\docs\output\commands\npm-root.html
+    RewriteRule ^npm-root/$ node_modules\npm\docs\output\commands\npm-root.html [L]
+    #node_modules\npm\docs\output\commands\npm-run-script.html
+    RewriteRule ^npm-run-script/$ node_modules\npm\docs\output\commands\npm-run-script.html [L]
+    #node_modules\npm\docs\output\commands\npm-sbom.html
+    RewriteRule ^npm-sbom/$ node_modules\npm\docs\output\commands\npm-sbom.html [L]
+    #node_modules\npm\docs\output\commands\npm-search.html
+    RewriteRule ^npm-search/$ node_modules\npm\docs\output\commands\npm-search.html [L]
+    #node_modules\npm\docs\output\commands\npm-shrinkwrap.html
+    RewriteRule ^npm-shrinkwrap/$ node_modules\npm\docs\output\commands\npm-shrinkwrap.html [L]
+    #node_modules\npm\docs\output\commands\npm-star.html
+    RewriteRule ^npm-star/$ node_modules\npm\docs\output\commands\npm-star.html [L]
+    #node_modules\npm\docs\output\commands\npm-stars.html
+    RewriteRule ^npm-stars/$ node_modules\npm\docs\output\commands\npm-stars.html [L]
+    #node_modules\npm\docs\output\commands\npm-start.html
+    RewriteRule ^npm-start/$ node_modules\npm\docs\output\commands\npm-start.html [L]
+    #node_modules\npm\docs\output\commands\npm-stop.html
+    RewriteRule ^npm-stop/$ node_modules\npm\docs\output\commands\npm-stop.html [L]
+    #node_modules\npm\docs\output\commands\npm-team.html
+    RewriteRule ^npm-team/$ node_modules\npm\docs\output\commands\npm-team.html [L]
+    #node_modules\npm\docs\output\commands\npm-test.html
+    RewriteRule ^npm-test/$ node_modules\npm\docs\output\commands\npm-test.html [L]
+    #node_modules\npm\docs\output\commands\npm-token.html
+    RewriteRule ^npm-token/$ node_modules\npm\docs\output\commands\npm-token.html [L]
+    #node_modules\npm\docs\output\commands\npm-uninstall.html
+    RewriteRule ^npm-uninstall/$ node_modules\npm\docs\output\commands\npm-uninstall.html [L]
+    #node_modules\npm\docs\output\commands\npm-unpublish.html
+    RewriteRule ^npm-unpublish/$ node_modules\npm\docs\output\commands\npm-unpublish.html [L]
+    #node_modules\npm\docs\output\commands\npm-unstar.html
+    RewriteRule ^npm-unstar/$ node_modules\npm\docs\output\commands\npm-unstar.html [L]
+    #node_modules\npm\docs\output\commands\npm-update.html
+    RewriteRule ^npm-update/$ node_modules\npm\docs\output\commands\npm-update.html [L]
+    #node_modules\npm\docs\output\commands\npm-version.html
+    RewriteRule ^npm-version/$ node_modules\npm\docs\output\commands\npm-version.html [L]
+    #node_modules\npm\docs\output\commands\npm-view.html
+    RewriteRule ^npm-view/$ node_modules\npm\docs\output\commands\npm-view.html [L]
+    #node_modules\npm\docs\output\commands\npm-whoami.html
+    RewriteRule ^npm-whoami/$ node_modules\npm\docs\output\commands\npm-whoami.html [L]
+    #node_modules\npm\docs\output\commands\npm.html
+    RewriteRule ^npm/$ node_modules\npm\docs\output\commands\npm.html [L]
+    #node_modules\npm\docs\output\commands\npx.html
+    RewriteRule ^npx/$ node_modules\npm\docs\output\commands\npx.html [L]
+    #node_modules\npm\docs\output\configuring-npm\folders.html
+    RewriteRule ^folders/$ node_modules\npm\docs\output\configuring-npm\folders.html [L]
+    #node_modules\npm\docs\output\configuring-npm\install.html
+    RewriteRule ^install/$ node_modules\npm\docs\output\configuring-npm\install.html [L]
+    #node_modules\npm\docs\output\configuring-npm\npm-shrinkwrap-json.html
+    RewriteRule ^npm-shrinkwrap-json/$ node_modules\npm\docs\output\configuring-npm\npm-shrinkwrap-json.html [L]
+    #node_modules\npm\docs\output\configuring-npm\npmrc.html
+    RewriteRule ^npmrc/$ node_modules\npm\docs\output\configuring-npm\npmrc.html [L]
+    #node_modules\npm\docs\output\configuring-npm\package-json.html
+    RewriteRule ^package-json/$ node_modules\npm\docs\output\configuring-npm\package-json.html [L]
+    #node_modules\npm\docs\output\configuring-npm\package-lock-json.html
+    RewriteRule ^package-lock-json/$ node_modules\npm\docs\output\configuring-npm\package-lock-json.html [L]
+    #node_modules\npm\docs\output\using-npm\config.html
+    RewriteRule ^config/$ node_modules\npm\docs\output\using-npm\config.html [L]
+    #node_modules\npm\docs\output\using-npm\dependency-selectors.html
+    RewriteRule ^dependency-selectors/$ node_modules\npm\docs\output\using-npm\dependency-selectors.html [L]
+    #node_modules\npm\docs\output\using-npm\developers.html
+    RewriteRule ^developers/$ node_modules\npm\docs\output\using-npm\developers.html [L]
+    #node_modules\npm\docs\output\using-npm\logging.html
+    RewriteRule ^logging/$ node_modules\npm\docs\output\using-npm\logging.html [L]
+    #node_modules\npm\docs\output\using-npm\orgs.html
+    RewriteRule ^orgs/$ node_modules\npm\docs\output\using-npm\orgs.html [L]
+    #node_modules\npm\docs\output\using-npm\package-spec.html
+    RewriteRule ^package-spec/$ node_modules\npm\docs\output\using-npm\package-spec.html [L]
+    #node_modules\npm\docs\output\using-npm\registry.html
+    RewriteRule ^registry/$ node_modules\npm\docs\output\using-npm\registry.html [L]
+    #node_modules\npm\docs\output\using-npm\removal.html
+    RewriteRule ^removal/$ node_modules\npm\docs\output\using-npm\removal.html [L]
+    #node_modules\npm\docs\output\using-npm\scope.html
+    RewriteRule ^scope/$ node_modules\npm\docs\output\using-npm\scope.html [L]
+    #node_modules\npm\docs\output\using-npm\scripts.html
+    RewriteRule ^scripts/$ node_modules\npm\docs\output\using-npm\scripts.html [L]
+    #node_modules\npm\docs\output\using-npm\workspaces.html
+    RewriteRule ^workspaces/$ node_modules\npm\docs\output\using-npm\workspaces.html [L]
+    #node_modules\npm\node_modules\jsbn\example.html
+    RewriteRule ^example/$ node_modules\npm\node_modules\jsbn\example.html [L]
+    #node_modules\npm\node_modules\sprintf-js\demo\angular.html
+    RewriteRule ^angular/$ node_modules\npm\node_modules\sprintf-js\demo\angular.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-access.html
+    RewriteRule ^npm-access/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-access.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-adduser.html
+    RewriteRule ^npm-adduser/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-adduser.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-audit.html
+    RewriteRule ^npm-audit/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-audit.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-bin.html
+    RewriteRule ^npm-bin/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-bin.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-bugs.html
+    RewriteRule ^npm-bugs/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-bugs.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-build.html
+    RewriteRule ^npm-build/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-build.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-bundle.html
+    RewriteRule ^npm-bundle/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-bundle.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-cache.html
+    RewriteRule ^npm-cache/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-cache.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-ci.html
+    RewriteRule ^npm-ci/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-ci.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-completion.html
+    RewriteRule ^npm-completion/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-completion.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-config.html
+    RewriteRule ^npm-config/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-config.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-dedupe.html
+    RewriteRule ^npm-dedupe/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-dedupe.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-deprecate.html
+    RewriteRule ^npm-deprecate/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-deprecate.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-dist-tag.html
+    RewriteRule ^npm-dist-tag/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-dist-tag.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-docs.html
+    RewriteRule ^npm-docs/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-docs.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-doctor.html
+    RewriteRule ^npm-doctor/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-doctor.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-edit.html
+    RewriteRule ^npm-edit/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-edit.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-explore.html
+    RewriteRule ^npm-explore/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-explore.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-fund.html
+    RewriteRule ^npm-fund/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-fund.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-help-search.html
+    RewriteRule ^npm-help-search/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-help-search.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-help.html
+    RewriteRule ^npm-help/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-help.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-hook.html
+    RewriteRule ^npm-hook/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-hook.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-init.html
+    RewriteRule ^npm-init/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-init.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-install-ci-test.html
+    RewriteRule ^npm-install-ci-test/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-install-ci-test.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-install-test.html
+    RewriteRule ^npm-install-test/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-install-test.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-install.html
+    RewriteRule ^npm-install/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-install.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-link.html
+    RewriteRule ^npm-link/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-link.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-logout.html
+    RewriteRule ^npm-logout/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-logout.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-ls.html
+    RewriteRule ^npm-ls/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-ls.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-org.html
+    RewriteRule ^npm-org/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-org.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-outdated.html
+    RewriteRule ^npm-outdated/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-outdated.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-owner.html
+    RewriteRule ^npm-owner/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-owner.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-pack.html
+    RewriteRule ^npm-pack/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-pack.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-ping.html
+    RewriteRule ^npm-ping/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-ping.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-prefix.html
+    RewriteRule ^npm-prefix/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-prefix.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-profile.html
+    RewriteRule ^npm-profile/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-profile.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-prune.html
+    RewriteRule ^npm-prune/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-prune.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-publish.html
+    RewriteRule ^npm-publish/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-publish.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-rebuild.html
+    RewriteRule ^npm-rebuild/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-rebuild.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-repo.html
+    RewriteRule ^npm-repo/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-repo.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-restart.html
+    RewriteRule ^npm-restart/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-restart.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-root.html
+    RewriteRule ^npm-root/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-root.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-run-script.html
+    RewriteRule ^npm-run-script/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-run-script.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-search.html
+    RewriteRule ^npm-search/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-search.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-shrinkwrap.html
+    RewriteRule ^npm-shrinkwrap/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-shrinkwrap.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-star.html
+    RewriteRule ^npm-star/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-star.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-stars.html
+    RewriteRule ^npm-stars/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-stars.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-start.html
+    RewriteRule ^npm-start/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-start.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-stop.html
+    RewriteRule ^npm-stop/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-stop.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-team.html
+    RewriteRule ^npm-team/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-team.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-test.html
+    RewriteRule ^npm-test/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-test.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-token.html
+    RewriteRule ^npm-token/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-token.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-uninstall.html
+    RewriteRule ^npm-uninstall/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-uninstall.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-unpublish.html
+    RewriteRule ^npm-unpublish/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-unpublish.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-update.html
+    RewriteRule ^npm-update/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-update.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-version.html
+    RewriteRule ^npm-version/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-version.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-view.html
+    RewriteRule ^npm-view/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-view.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-whoami.html
+    RewriteRule ^npm-whoami/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm-whoami.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm.html
+    RewriteRule ^npm/$ node_modules\npm-install-peers\node_modules\npm\docs\output\commands\npm.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\folders.html
+    RewriteRule ^folders/$ node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\folders.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\install.html
+    RewriteRule ^install/$ node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\install.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\npmrc.html
+    RewriteRule ^npmrc/$ node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\npmrc.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\package-json.html
+    RewriteRule ^package-json/$ node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\package-json.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\package-lock-json.html
+    RewriteRule ^package-lock-json/$ node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\package-lock-json.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\package-locks.html
+    RewriteRule ^package-locks/$ node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\package-locks.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\shrinkwrap-json.html
+    RewriteRule ^shrinkwrap-json/$ node_modules\npm-install-peers\node_modules\npm\docs\output\configuring-npm\shrinkwrap-json.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\config.html
+    RewriteRule ^config/$ node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\config.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\developers.html
+    RewriteRule ^developers/$ node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\developers.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\orgs.html
+    RewriteRule ^orgs/$ node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\orgs.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\registry.html
+    RewriteRule ^registry/$ node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\registry.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\removal.html
+    RewriteRule ^removal/$ node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\removal.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\scope.html
+    RewriteRule ^scope/$ node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\scope.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\scripts.html
+    RewriteRule ^scripts/$ node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\scripts.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\semver.html
+    RewriteRule ^semver/$ node_modules\npm-install-peers\node_modules\npm\docs\output\using-npm\semver.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\docs\template.html
+    RewriteRule ^template/$ node_modules\npm-install-peers\node_modules\npm\docs\template.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\node_modules\jsbn\example.html
+    RewriteRule ^example/$ node_modules\npm-install-peers\node_modules\npm\node_modules\jsbn\example.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\node_modules\mute-stream\coverage\lcov-report\index.html
+    RewriteRule ^index/$ node_modules\npm-install-peers\node_modules\npm\node_modules\mute-stream\coverage\lcov-report\index.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\node_modules\mute-stream\coverage\lcov-report\__root__\index.html
+    RewriteRule ^index/$ node_modules\npm-install-peers\node_modules\npm\node_modules\mute-stream\coverage\lcov-report\__root__\index.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\node_modules\mute-stream\coverage\lcov-report\__root__\mute.js.html
+    RewriteRule ^mute.js/$ node_modules\npm-install-peers\node_modules\npm\node_modules\mute-stream\coverage\lcov-report\__root__\mute.js.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\node_modules\through2\LICENSE.html
+    RewriteRule ^LICENSE/$ node_modules\npm-install-peers\node_modules\npm\node_modules\through2\LICENSE.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\node_modules\unique-filename\coverage\index.html
+    RewriteRule ^index/$ node_modules\npm-install-peers\node_modules\npm\node_modules\unique-filename\coverage\index.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\node_modules\unique-filename\coverage\__root__\index.html
+    RewriteRule ^index/$ node_modules\npm-install-peers\node_modules\npm\node_modules\unique-filename\coverage\__root__\index.html [L]
+    #node_modules\npm-install-peers\node_modules\npm\node_modules\unique-filename\coverage\__root__\index.js.html
+    RewriteRule ^index.js/$ node_modules\npm-install-peers\node_modules\npm\node_modules\unique-filename\coverage\__root__\index.js.html [L]
+    #node_modules\slick-carousel\index.html
+    RewriteRule ^index/$ node_modules\slick-carousel\index.html [L]
+    #node_modules\terser\tools\props.html
+    RewriteRule ^props/$ node_modules\terser\tools\props.html [L]
+    #node_modules\tslib\tslib.es6.html
+    RewriteRule ^tslib.es6/$ node_modules\tslib\tslib.es6.html [L]
+    #node_modules\tslib\tslib.html
+    RewriteRule ^tslib/$ node_modules\tslib\tslib.html [L]
+    #node_modules\tsparticles\report.html
+    RewriteRule ^report/$ node_modules\tsparticles\report.html [L]
+    #node_modules\tsparticles-basic\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-basic\report.html [L]
+    #node_modules\tsparticles-engine\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-engine\report.html [L]
+    #node_modules\tsparticles-interaction-external-attract\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-attract\report.html [L]
+    #node_modules\tsparticles-interaction-external-bounce\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-bounce\report.html [L]
+    #node_modules\tsparticles-interaction-external-bubble\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-bubble\report.html [L]
+    #node_modules\tsparticles-interaction-external-connect\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-connect\report.html [L]
+    #node_modules\tsparticles-interaction-external-grab\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-grab\report.html [L]
+    #node_modules\tsparticles-interaction-external-pause\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-pause\report.html [L]
+    #node_modules\tsparticles-interaction-external-push\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-push\report.html [L]
+    #node_modules\tsparticles-interaction-external-remove\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-remove\report.html [L]
+    #node_modules\tsparticles-interaction-external-repulse\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-repulse\report.html [L]
+    #node_modules\tsparticles-interaction-external-slow\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-external-slow\report.html [L]
+    #node_modules\tsparticles-interaction-particles-attract\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-particles-attract\report.html [L]
+    #node_modules\tsparticles-interaction-particles-collisions\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-particles-collisions\report.html [L]
+    #node_modules\tsparticles-interaction-particles-links\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-interaction-particles-links\report.html [L]
+    #node_modules\tsparticles-move-base\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-move-base\report.html [L]
+    #node_modules\tsparticles-move-parallax\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-move-parallax\report.html [L]
+    #node_modules\tsparticles-particles.js\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-particles.js\report.html [L]
+    #node_modules\tsparticles-plugin-easing-quad\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-plugin-easing-quad\report.html [L]
+    #node_modules\tsparticles-shape-circle\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-shape-circle\report.html [L]
+    #node_modules\tsparticles-shape-image\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-shape-image\report.html [L]
+    #node_modules\tsparticles-shape-line\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-shape-line\report.html [L]
+    #node_modules\tsparticles-shape-polygon\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-shape-polygon\report.html [L]
+    #node_modules\tsparticles-shape-square\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-shape-square\report.html [L]
+    #node_modules\tsparticles-shape-star\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-shape-star\report.html [L]
+    #node_modules\tsparticles-shape-text\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-shape-text\report.html [L]
+    #node_modules\tsparticles-slim\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-slim\report.html [L]
+    #node_modules\tsparticles-updater-color\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-updater-color\report.html [L]
+    #node_modules\tsparticles-updater-life\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-updater-life\report.html [L]
+    #node_modules\tsparticles-updater-opacity\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-updater-opacity\report.html [L]
+    #node_modules\tsparticles-updater-out-modes\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-updater-out-modes\report.html [L]
+    #node_modules\tsparticles-updater-rotate\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-updater-rotate\report.html [L]
+    #node_modules\tsparticles-updater-size\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-updater-size\report.html [L]
+    #node_modules\tsparticles-updater-stroke-color\report.html
+    RewriteRule ^report/$ node_modules\tsparticles-updater-stroke-color\report.html [L]
+    #node_modules\xhr2\test\html\browser_test.html
+    RewriteRule ^browser_test/$ node_modules\xhr2\test\html\browser_test.html [L]
+    RewriteCond %{REQUEST_FILENAME} !-f 
+
+  RewriteCond %{REQUEST_FILENAME} !-d 
+
+  RewriteRule ^(.*)$ /404/404.html [L] 
+</IfModule>

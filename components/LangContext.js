@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, createContext, useEffect } from "react";
 // import MenuItem from "@mui/material/MenuItem";
 // import { serverSideTranslations, useTranslation } from 'next-i18next';

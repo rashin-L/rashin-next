@@ -1,5 +1,3 @@
-
- 
 const { createServer } = require('http')
 const { parse } = require('url')
 const next = require('next')
@@ -36,7 +34,7 @@ app.prepare().then(() => {
       console.error(err)
       process.exit(1)
     })
-     .listen(port, () => {
+    .listen(port, () => {
       console.log(`> Ready on http://${hostname}:${port}`)
     })
 })

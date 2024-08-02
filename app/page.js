@@ -1,6 +1,6 @@
 import React from "react";
 // import LandingPage from "@/pages/LandingPage";
-import LandingPage from "@/components/LandingPage";
+import LandingPage from "../components/LandingPage";
 
 // export const metadata = {
 //   // robots: {
